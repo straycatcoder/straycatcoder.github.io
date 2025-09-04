@@ -6,9 +6,9 @@ baseURL = "https://straycatcoder.github.io"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
+title = "Stray ฅ^•ﻌ•^ฅ Coder Blog"
 author = "Jane Doe"
-copyright = "Copyright © 2020, Jane Doe."
+copyright = "No Copyright © !!!."
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
