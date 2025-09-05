@@ -1,6 +1,5 @@
 +++
 title = "Hugo"
-menu = "main"
 weight = 10
 +++
 

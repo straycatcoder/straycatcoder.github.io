@@ -1,6 +1,5 @@
 +++
 title = "Bear"
-menu = "main"
 weight = 20
 +++
 
