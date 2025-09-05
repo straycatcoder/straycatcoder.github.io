@@ -14,12 +14,14 @@ languageCode = "en-US"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
-# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
   blog = "/:slug/"
   tags = "/blog/:slug"
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 110
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.

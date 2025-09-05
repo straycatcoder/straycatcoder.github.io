@@ -12,16 +12,24 @@
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-09-03T20:41:46-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/first/</loc>
+    <lastmod>2025-09-03T20:41:46-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/first-post/</loc>
     <lastmod>2025-09-03T20:41:46-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/markdown/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-03T20:41:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/syntax/</loc>
+    <lastmod>2025-09-03T20:41:46-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-03T20:41:46-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/markdown-syntax-guide/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/syntax/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
