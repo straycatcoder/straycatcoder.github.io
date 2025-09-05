@@ -3,7 +3,7 @@
 baseURL = "https://straycatcoder.github.io"
 
 # The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
+theme = 'hugo-bearneo'
 
 # Basic metadata configuration for your blog.
 title = "Stray ฅ^•ﻌ•^ฅ Coder"
@@ -16,6 +16,11 @@ enableRobotsTXT = true
 
 [permalinks]
   blog = "/:slug/"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 100
 
 [[menu.main]]
   name = "Tags"
@@ -56,7 +61,8 @@ enableRobotsTXT = true
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   # dateFormat = "2006-01-02"
-
+  showPostCount = true
+  groupByYear = true
 # Configure markup highlighter to match "Bearblog" aesthetics, see
 # https://gohugo.io/configuration/markup/#highlight
 [markup]
