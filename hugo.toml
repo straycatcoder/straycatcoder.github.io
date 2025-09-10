@@ -79,10 +79,8 @@ enableRobotsTXT = true
   hideRSSAndEmail = false
 
 [params.RSS]
-  # 是否启用 RSS，若不配置，默认 true
   # Is RSS enabled? If not configured, the default is true.
   enableRSS = true
-  # 生成的 RSS 文件中文章数量限制，若不配置，即不设限制
   # The article quantity limit in the generated RSS file, if not configured, no limit is set.
   pageLimit = 10
 
