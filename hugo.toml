@@ -63,6 +63,29 @@ enableRobotsTXT = true
   # dateFormat = "2006-01-02"
   showPostCount = true
   groupByYear = true
+
+[params.footer]
+  # 是否隐藏版权说明文案，若不配置，默认 false
+  # Whether to hide the copyright notice text, if not configured, the default is false.
+  hideCopyright = false
+  # 是否隐藏 Sitemap 链接，不隐藏有利于 SEO，若不配置，默认 false
+  # Whether to hide the Sitemap link, not hiding is beneficial for SEO, if not configured, the default is false.
+  hideSitemap = true
+  # 是否隐藏 made-with-line，若不配置，默认 false，你可以关闭它，但如果你不这样做，我将非常感激 :-)
+  # Whether to hide made-with-line, if not configured, the default is false, you can turn it off, but if you don't, I will be very grateful :-)
+  hideMadeWithLine = false
+  # 是否隐藏 RSS 和 Email 链接，若不配置，默认 false
+  # Whether to hide RSS and Email links, if not configured, the default is false.
+  hideRSSAndEmail = false
+
+[params.RSS]
+  # 是否启用 RSS，若不配置，默认 true
+  # Is RSS enabled? If not configured, the default is true.
+  enableRSS = true
+  # 生成的 RSS 文件中文章数量限制，若不配置，即不设限制
+  # The article quantity limit in the generated RSS file, if not configured, no limit is set.
+  pageLimit = 10
+
 # Configure markup highlighter to match "Bearblog" aesthetics, see
 # https://gohugo.io/configuration/markup/#highlight
 [markup]
