@@ -57,7 +57,6 @@ enableRobotsTXT = true
   tocopen = false
 
   [params.homeInfoParams]
-    Title = "Stray ฅ^•ﻌ•^ฅ Coder"
     Content = "Welcome to my blog"
 
   [[params.socialIcons]]
