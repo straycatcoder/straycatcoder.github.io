@@ -11,7 +11,6 @@ tags = [
     "first",
     "markdown",
     "syntax",
-    
     ]
 +++
 
