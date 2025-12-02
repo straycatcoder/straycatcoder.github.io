@@ -57,7 +57,14 @@ enableRobotsTXT = true
   tocopen = false
 
   [params.homeInfoParams]
-    Content = "Welcome to my blog"
+    title = "Welcome to the Blog"
+    Content = """
+Just an old stray coder writing about the tools and languages I'm tinkering with.  
+
+You'll find posts about Emacs configs, Rust experiments, Python scripts, and the occasional Mathematica notebook.  
+
+Mostly practical stuff, sometimes random musings. Hope you find something useful.
+    """
 
   [[params.socialIcons]]
     name = "github"
