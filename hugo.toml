@@ -3,7 +3,7 @@
 baseURL = "https://straycatcoder.github.io"
 
 # The name of this wonderful theme ;-).
-theme = 'hugo-bearneo'
+theme = 'PaperMod'
 
 # Basic metadata configuration for your blog.
 title = "Stray ฅ^•ﻌ•^ฅ Coder"
@@ -13,6 +13,9 @@ languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 5
 
 [permalinks]
   blog = "/:slug/"
@@ -27,68 +30,51 @@ enableRobotsTXT = true
   url = "/tags/"
   weight = 110
 
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 120
+
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
-  description = "Hugo + Bear = :heart:"
+  description = "Hugo + PaperMod"
+  
+  # PaperMod specific settings
+  defaultTheme = "auto" # dark, light, or auto
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
 
-  # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-  # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
-  favicon = "images/favicon.png"
+  [params.homeInfoParams]
+    Title = "Stray ฅ^•ﻌ•^ฅ Coder"
+    Content = "Welcome to my blog"
 
-  # These "images" are used for the structured data templates. This will show up, when
-  # services like Twitter or Slack want to generate a preview of a link to your site.
-  # See https://gohugo.io/templates/internal#twitter-cards and
-  # https://gohugo.io/templates/internal#open-graph.
-  images = ["images/share.png"]
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/straycatcoder"
 
-  # Another "title" :-). This one is used as the site_name on the Hugo's internal
-  # opengraph structured data template.
-  # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-  title = "Stray ฅ^•ﻌ•^ฅ Coder"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/blog/index.xml"
 
-  # This theme will, by default, inject a made-with-line at the bottom of the page.
-  # You can turn it off, but we would really appreciate if you don’t :-).
-  # hideMadeWithLine = true
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # is necessary for search
 
-  # By default, if you want to read more than one blog post you have to always go
-  # back to the /blog page.
-  # By enabling this feature each blog post will have at the end a navigator
-  # enablePostNavigator = true
-
-  # By default, this theme displays dates with a format like "02 Jan, 2006", but
-  # you can customize it by setting the `dateFormat` param in your site's config
-  # file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
-  # for details. An example TOML config that uses [ISO
-  # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
-  # dateFormat = "2006-01-02"
-  showPostCount = true
-  groupByYear = true
-
-[params.footer]
-  # 是否隐藏版权说明文案，若不配置，默认 false
-  # Whether to hide the copyright notice text, if not configured, the default is false.
-  hideCopyright = false
-  # 是否隐藏 Sitemap 链接，不隐藏有利于 SEO，若不配置，默认 false
-  # Whether to hide the Sitemap link, not hiding is beneficial for SEO, if not configured, the default is false.
-  hideSitemap = true
-  # 是否隐藏 made-with-line，若不配置，默认 false，你可以关闭它，但如果你不这样做，我将非常感激 :-)
-  # Whether to hide made-with-line, if not configured, the default is false, you can turn it off, but if you don't, I will be very grateful :-)
-  hideMadeWithLine = false
-  # 是否隐藏 RSS 和 Email 链接，若不配置，默认 false
-  # Whether to hide RSS and Email links, if not configured, the default is false.
-  hideRSSAndEmail = false
-
-[params.RSS]
-  # Is RSS enabled? If not configured, the default is true.
-  enableRSS = true
-  # The article quantity limit in the generated RSS file, if not configured, no limit is set.
-  pageLimit = 10
-
-# Configure markup highlighter to match "Bearblog" aesthetics, see
-# https://gohugo.io/configuration/markup/#highlight
+# Configure markup highlighter
 [markup]
   [markup.highlight]
-    style = 'friendly'
+    style = 'monokai'
     lineNos = true
     lineNumbersInTable = false
     codeFences = true
