@@ -1,0 +1,140 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <div class="fatcat-wrap">
+        <pre id="fatcat" aria-label="Fat cat developer ASCII animation"></pre>
+    </div>
+
+    <div class="entry-content md-content">
+        {{ $opts := dict "display" "block" }}
+        {{ .Content | $.Page.RenderString $opts }}
+    </div>
+
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+</article>
+
+<style>
+.fatcat-wrap {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+#fatcat {
+    max-width: 100%;
+    margin: 0;
+    padding: 1.25rem 1.5rem;
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--theme);
+    box-shadow: 0 0 24px rgba(140, 255, 140, 0.15);
+    color: #000;
+    font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0;
+    white-space: pre;
+}
+
+:root[data-theme="dark"] #fatcat {
+    color: #8cff8c;
+}
+
+@media (max-width: 600px) {
+    #fatcat { font-size: 10.5px; padding: 1rem; }
+}
+</style>
+
+<script>
+(() => {
+    const frames = [
+`     /\\_/\\        +--------------------+
+    ( o.o )       | while(true){       |
+     = ^ =        |   code();          |
+   /  ___  \\__    |   nap();   >       |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   )) tail wag`,
+`     /\\_/\\        +--------------------+
+    ( o.o )       | 0101  0101         |
+     = ^ =        | 1010  0011   >     |
+   /  \\_/  \\__    | 0101  1100         |
+  |  (___)   \\    +--------------------+
+  |   /\\ /\\   |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   (( paws up!)`,
+`     /\\_/\\        +--------------------+
+    ( -.- )  z    | 0101  0101         |
+     = ^ =        | 1010  0011   >     |
+   /  ___  \\__    | 0101  1100         |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   ~~ blink ~~`,
+`     /\\_/\\  o     +--------------------+
+    ( o.o )>~     | $ npm run nap      |
+     = ~ =        | > brewing... >     |
+   /  ___  \\__    |   zZ...  o         |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   *sip* ahh~~`,
+`     /\\_/\\        +--------------------+
+    ( O.O )!!     | // BUG FOUND!      |
+     = o =        | > 127 errs >       |
+   /  ___  \\__    |   bug! bug! bug!   |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   !! puff!!`,
+`     /\\_/\\        +--------------------+
+    ( >_< )##     | !!! FIX FIX !!!    |
+     = # =        | > rm -rf bug/ >    |
+   /  >_<  \\__    | > smash keys!!     |
+  |  (___)   \\    +--------------------+
+  |   /\\ /\\   |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   ANGRY TYPE!!`,
+`      Z  Z        +--------------------+
+     /\\_/\\  zZ    |   zZ  zZ  zZ       |
+    ( -.- )  z    |   zZ sleep >       |
+   /  ___  \\__    |   zZ  zZ  zZ       |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                         
+[ FAT CAT DEV v1.0 ]   zZz snore ~~`,
+`     /\\_/\\  <3    +--------------------+
+    ( ^.^ ) <3    | > ship it! <3      |
+     = w =        | > deployed! >      |
+   /  ___  \\__    |   let's gooo!!     |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   <3 propeller!`
+    ];
+    const cat = document.getElementById('fatcat');
+    if (!cat) return;
+
+    let frame = 0;
+    cat.textContent = frames[frame];
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    window.setInterval(() => {
+        frame = (frame + 1) % frames.length;
+        cat.textContent = frames[frame];
+    }, 450);
+})();
+</script>
+{{- end -}}

@@ -1,0 +1,127 @@
+<div class="fatcat-wrap">
+<pre id="fatcat" aria-label="Fat cat developer ASCII animation"></pre>
+</div>
+
+<style>
+.fatcat-wrap {
+  display: grid;
+  place-items: center;
+  margin: 2rem 0;
+  width: 100%;
+}
+#fatcat {
+  margin: 0;
+  padding: 1.25rem 1.5rem;
+  font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0;
+  white-space: pre;
+  background: #0e0f13;
+  color: #8cff8c;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  box-shadow: 0 0 24px rgba(140,255,140,0.15);
+  overflow-x: auto;
+  max-width: 100%;
+}
+/* Amber variant: just change class */
+.fatcat-wrap.amber #fatcat {
+  color: #ffbf6b;
+  box-shadow: 0 0 24px rgba(255,191,107,0.15);
+}
+@media (max-width: 600px) {
+  #fatcat { font-size: 10.5px; padding: 1rem; }
+}
+</style>
+
+<script>
+(function() {
+  const FRAMES = [
+`     /\\_/\\        +--------------------+
+    ( o.o )       | while(true){       |
+     = ^ =        |   code();          |
+   /  ___  \\__    |   nap();   >       |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   )) tail wag`,
+`     /\\_/\\        +--------------------+
+    ( o.o )       | 0101  0101         |
+     = ^ =        | 1010  0011   >     |
+   /  \\_/  \\__    | 0101  1100         |
+  |  (___)   \\    +--------------------+
+  |   /\\ /\\   |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   (( paws up!)`,
+`     /\\_/\\        +--------------------+
+    ( -.- )  z    | 0101  0101         |
+     = ^ =        | 1010  0011   >     |
+   /  ___  \\__    | 0101  1100         |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   ~~ blink ~~`,
+`     /\\_/\\  o     +--------------------+
+    ( o.o )>~     | $ npm run nap      |
+     = ~ =        | > brewing... >     |
+   /  ___  \\__    |   zZ...  o         |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   *sip* ahh~~`,
+`     /\\_/\\        +--------------------+
+    ( O.O )!!     | // BUG FOUND!      |
+     = o =        | > 127 errs >       |
+   /  ___  \\__    |   bug! bug! bug!   |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   !! puff!!`,
+`     /\\_/\\        +--------------------+
+    ( >_< )##     | !!! FIX FIX !!!    |
+     = # =        | > rm -rf bug/ >    |
+   /  >_<  \\__    | > smash keys!!     |
+  |  (___)   \\    +--------------------+
+  |   /\\ /\\   |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   ANGRY TYPE!!`,
+`      Z  Z        +--------------------+
+     /\\_/\\  zZ    |   zZ  zZ  zZ       |
+    ( -.- )  z    |   zZ sleep >       |
+   /  ___  \\__    |   zZ  zZ  zZ       |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                         
+[ FAT CAT DEV v1.0 ]   zZz snore ~~`,
+`     /\\_/\\  <3    +--------------------+
+    ( ^.^ ) <3    | > ship it! <3      |
+     = w =        | > deployed! >      |
+   /  ___  \\__    |   let's gooo!!     |
+  |  (___)   \\    +--------------------+
+  |   | |     |                         
+  |___| |_ ___|                         
+   /_/     \\_\\                           
+[ FAT CAT DEV v1.0 ]   <3 propeller!`
+  ];
+
+  const el = document.getElementById('fatcat');
+  if (!el) return;
+  let i = 0;
+  const speed = 450;
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  el.textContent = FRAMES[0];
+  if (reduced) return; // static for accessibility
+  setInterval(() => {
+    i = (i + 1) % FRAMES.length;
+    el.textContent = FRAMES[i];
+  }, speed);
+})();
+</script>
