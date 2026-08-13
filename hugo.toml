@@ -59,7 +59,7 @@ enableRobotsTXT = true
   [params.homeInfoParams]
     title = "Welcome to the Blog"
     Content = """
-Nothing serious on this blog—just random thoughts, coding experiments, and nonsense.
+Nothing serious on this blog, just random thoughts, coding experiments, and loads of nonsense.
     """
 
   [[params.socialIcons]]
