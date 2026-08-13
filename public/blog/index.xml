@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>No Copyright © !!!.</copyright>
-    <lastBuildDate>Wed, 03 Sep 2025 20:41:46 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 12:00:00 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChromeOS Flex on a Dell Precision 5520</title>
+      <link>http://localhost:1313/chromeos-flex-on-a-dell-precision-5520/</link>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/chromeos-flex-on-a-dell-precision-5520/</guid>
+      <description>A quick experiment: giving a recycled Dell Precision 5520 a smooth desktop and usable fractional scaling with ChromeOS Flex.</description>
+    </item>
     <item>
       <title>First Post</title>
       <link>http://localhost:1313/first-post/</link>

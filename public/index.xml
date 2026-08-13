@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>No Copyright © !!!.</copyright>
-    <lastBuildDate>Wed, 03 Sep 2025 20:41:46 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 12:00:00 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
@@ -37,6 +37,13 @@
 &lt;p&gt;There is a website obesity crisis. Bloated websites are full of scripts, ads, and trackers slowing your readers down every time they try to read your well-crafted content.&lt;/p&gt;
 &lt;p&gt;Bear is all you need to build a fantastic and optimized site or blog. It works perfectly on &lt;strong&gt;any&lt;/strong&gt; viewing device. All you need to focus on is writing good content.&lt;/p&gt;
 &lt;p&gt;Bear makes it simple to publish content online and grow an audience while keeping pages tiny, fast, and &lt;strong&gt;optimized for search engines.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ChromeOS Flex on a Dell Precision 5520</title>
+      <link>http://localhost:1313/chromeos-flex-on-a-dell-precision-5520/</link>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/chromeos-flex-on-a-dell-precision-5520/</guid>
+      <description>A quick experiment: giving a recycled Dell Precision 5520 a smooth desktop and usable fractional scaling with ChromeOS Flex.</description>
     </item>
     <item>
       <title>First Post</title>
