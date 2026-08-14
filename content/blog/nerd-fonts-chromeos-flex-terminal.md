@@ -3,7 +3,7 @@ title = "Enable Nerd Fonts in the ChromeOS Flex Terminal"
 date = "2026-08-14T09:30:00-04:00"
 draft = false
 description = "How to enable Nerd Font in the ChromeOS Flex Terminal."
-tags = ["ChromeOS-Flex", "Tips"]
+tags = ["ChromeOS-Flex", "Linux", "Terminal", "Tips"]
 +++
 In ChromeOS Flex, the Terminal is the entry point to Linux. In terminal settings, there are plenty of built-in fonts, however, there isn't a simple way to install nerd font or any other font, and the terminal can't pick up the fonts installed in the Linux either. 
 
@@ -26,3 +26,10 @@ term_.prefs_.set('user-css-text', '@font-face { font-family: "VictorMono Nerd Fo
 The terminal font shall be immediatelly updated, a simple test shows the nerd font installed correctly.
 
 ![Test the nerd font in terminal](/images/blog/test-nerd-font-terminal.png "Test the nerd font in Terminal")
+
+## Another way
+Just intall a terminal application and use the nerd font in Linux, this is probably the most easy way!
+The screenshot shows Tilix terminal with JetbrainMono nerd font.
+
+![Nerd font in Tilix terminal](/images/blog/nerd-font-tilix-terminal.png "Nerd font in Tilix Terminal")
+
