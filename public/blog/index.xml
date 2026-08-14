@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>No Copyright © !!!.</copyright>
-    <lastBuildDate>Thu, 13 Aug 2026 12:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 09:30:00 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Nerd Fonts in the ChromeOS Flex Terminal</title>
+      <link>http://localhost:1313/enable-nerd-fonts-in-the-chromeos-flex-terminal/</link>
+      <pubDate>Fri, 14 Aug 2026 09:30:00 -0400</pubDate>
+      <guid>http://localhost:1313/enable-nerd-fonts-in-the-chromeos-flex-terminal/</guid>
+      <description>How to enable Nerd Font in the ChromeOS Flex Terminal.</description>
+    </item>
     <item>
       <title>ChromeOS Flex on a Dell Precision 5520</title>
       <link>http://localhost:1313/chromeos-flex-on-a-dell-precision-5520/</link>
