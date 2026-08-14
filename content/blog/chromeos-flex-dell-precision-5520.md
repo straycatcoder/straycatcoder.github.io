@@ -7,8 +7,9 @@ tags = ["ChromeOS-Flex", "Linux", "old-hardware"]
 +++
 I found this Dell Precision 5520 in a recycling bin, thanks to its original owner for leaving a Post-it with the admin password.
 
-The 5520 is a 2017 mobile workstation: Intel i7-7820HQ (8) @ 2.90 GHz, Intel HD 630 graphics plus an Nvidia Quadro M1200, 16 GB of RAM, and 256Gb storage.
+The 5520 is a 2017 mobile workstation: Intel i7-7820HQ (8) @ 2.90 GHz, Intel HD 630 graphics + Nvidia Quadro M1200, 16 GB RAM and 256GB storage.
 
+![Dell Precision 5520 running ChromeOS Flex](/images/blog/dell-5520-flex.jpg "ChromeOS Flex desktop on Dell 5520")
 ## Why ChromeOS Flex?
 
 The laptop arrived with Ubuntu. I later tried Manjaro, but gnome desktop felt a little heavy for this machine, I tried Xfce dekstop, it only improves a little.
