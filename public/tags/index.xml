@@ -2,60 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Stray ฅ^•ﻌ•^ฅ Coder</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://straycatcoder.github.io/tags/</link>
     <description>Recent content in Tags on Stray ฅ^•ﻌ•^ฅ Coder</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>No Copyright © !!!.</copyright>
-    <lastBuildDate>Fri, 14 Aug 2026 09:30:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Aug 2026 13:46:00 -0400</lastBuildDate>
+    <atom:link href="https://straycatcoder.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChromeOS-Flex</title>
-      <link>http://localhost:1313/tags/chromeos-flex/</link>
-      <pubDate>Fri, 14 Aug 2026 09:30:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/chromeos-flex/</guid>
+      <link>https://straycatcoder.github.io/tags/chromeos-flex/</link>
+      <pubDate>Mon, 24 Aug 2026 13:46:00 -0400</pubDate>
+      <guid>https://straycatcoder.github.io/tags/chromeos-flex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ghostty</title>
+      <link>https://straycatcoder.github.io/tags/ghostty/</link>
+      <pubDate>Mon, 24 Aug 2026 13:46:00 -0400</pubDate>
+      <guid>https://straycatcoder.github.io/tags/ghostty/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Fri, 14 Aug 2026 09:30:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
+      <link>https://straycatcoder.github.io/tags/linux/</link>
+      <pubDate>Mon, 24 Aug 2026 13:46:00 -0400</pubDate>
+      <guid>https://straycatcoder.github.io/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Terminal</title>
-      <link>http://localhost:1313/tags/terminal/</link>
-      <pubDate>Fri, 14 Aug 2026 09:30:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/terminal/</guid>
+      <link>https://straycatcoder.github.io/tags/terminal/</link>
+      <pubDate>Mon, 24 Aug 2026 13:46:00 -0400</pubDate>
+      <guid>https://straycatcoder.github.io/tags/terminal/</guid>
       <description></description>
     </item>
     <item>
       <title>Tips</title>
-      <link>http://localhost:1313/tags/tips/</link>
-      <pubDate>Fri, 14 Aug 2026 09:30:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/tips/</guid>
+      <link>https://straycatcoder.github.io/tags/tips/</link>
+      <pubDate>Mon, 24 Aug 2026 13:46:00 -0400</pubDate>
+      <guid>https://straycatcoder.github.io/tags/tips/</guid>
       <description></description>
     </item>
     <item>
       <title>Old-Hardware</title>
-      <link>http://localhost:1313/tags/old-hardware/</link>
+      <link>https://straycatcoder.github.io/tags/old-hardware/</link>
       <pubDate>Thu, 13 Aug 2026 12:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/old-hardware/</guid>
+      <guid>https://straycatcoder.github.io/tags/old-hardware/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>http://localhost:1313/tags/markdown/</link>
+      <link>https://straycatcoder.github.io/tags/markdown/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/markdown/</guid>
+      <guid>https://straycatcoder.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Syntax</title>
-      <link>http://localhost:1313/tags/syntax/</link>
+      <link>https://straycatcoder.github.io/tags/syntax/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/syntax/</guid>
+      <guid>https://straycatcoder.github.io/tags/syntax/</guid>
       <description></description>
     </item>
   </channel>
