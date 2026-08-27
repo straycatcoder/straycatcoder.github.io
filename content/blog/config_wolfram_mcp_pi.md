@@ -1,13 +1,17 @@
 +++
 date = '2026-08-27T10:41:15-04:00'
-draft = true
+draft = false
 title = 'Configure Wolfram_MCP for pi.dev'
-description = "How to manually reuse Claude Desktop Wolfram MCP configuration in pi.dev"
+description = "How to reuse Claude Desktop Wolfram MCP configuration in pi.dev"
 tags = ["AI", "Wolfram", "pi.dev", "Tips"]
 +++
 
 ### Wolfram Local MCP
 Since Wolfram (or Mathematica) 15.0, it supports [Wolfram Local MCP](https://www.wolfram.com/artificial-intelligence/mcp/local/) out of the box. I have already let Wolfram configured the MCP server for Claude desktop, so we can reuse the configuration file for pi.dev.
+
+![Wolfram AI Configuration](/images/blog/wolfram_ai_config.jpg "Wolfram AI Configuration")
+
+**Note**: the following steps can be done by AI directly in pi.dev, no need to do it manually.  
 
 ### 1. MCP in pi.dev
 pi.dev doesn't include MCP extensions, the first thing to do is to install the mcp extension if neccessary.
@@ -49,18 +53,14 @@ Paste the code copied from Claude, it is necessary to do some extra editing, the
 }
 ```
 
-**Key differences from Claude Desktop:**
+There are two new fields:  
+**transport**:  `"stdio"`   
+**lifecycle**: `"eager"` (auto-start) or `"lazy"` (manual `/mcp:start`) |
 
-| Field | Claude Desktop | pi-mcp-extension |
-|---|---|---|
-| `transport` | implicit `stdio` | **required**: `"stdio"` \| `"streamable-http"` \| `"sse"` |
-| `lifecycle` | always eager | `"eager"` (auto-start) or `"lazy"` (manual `/mcp:start`) |
-| `env` | supported | supported (merged with parent env) |
-
-I am a casual Mathematica user, so lifecycle is set as "lazy" rather than "eager".
+As a casual Mathematica user, the lifecycle is set as "lazy" rather than "eager".
 
 ### 3. Verify
-Inside `pi` (interactive TUI):
+Inside `pi`: 
 
 ```
 /mcp:start Wolfram
