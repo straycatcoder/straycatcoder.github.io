@@ -9,7 +9,9 @@ theme = 'PaperMod'
 title = "Stray ฅ^•ﻌ•^ฅ Coder"
 author = "Jane Doe"
 copyright = "No Copyright © !!!."
-languageCode = "en-US"
+[languages]
+  [languages.en]
+    locale = "en-US"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
