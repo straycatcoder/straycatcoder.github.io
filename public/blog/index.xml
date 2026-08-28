@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Stray ฅ^•ﻌ•^ฅ Coder</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://straycatcoder.github.io/blog/</link>
     <description>Recent content in Blog on Stray ฅ^•ﻌ•^ฅ Coder</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>No Copyright © !!!.</copyright>
     <lastBuildDate>Thu, 27 Aug 2026 10:41:15 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://straycatcoder.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Configure Wolfram_MCP for pi.dev</title>
-      <link>http://localhost:1313/configure-wolfram_mcp-for-pi.dev/</link>
+      <title>Configure Local Wolfram MCP for pi.dev</title>
+      <link>https://straycatcoder.github.io/configure-local-wolfram-mcp-for-pi.dev/</link>
       <pubDate>Thu, 27 Aug 2026 10:41:15 -0400</pubDate>
-      <guid>http://localhost:1313/configure-wolfram_mcp-for-pi.dev/</guid>
+      <guid>https://straycatcoder.github.io/configure-local-wolfram-mcp-for-pi.dev/</guid>
       <description>How to reuse Claude Desktop Wolfram MCP configuration in pi.dev</description>
     </item>
     <item>
       <title>How to Fix Terminal Flickering in ChromeOS with Ghostty</title>
-      <link>http://localhost:1313/how-to-fix-terminal-flickering-in-chromeos-with-ghostty/</link>
+      <link>https://straycatcoder.github.io/how-to-fix-terminal-flickering-in-chromeos-with-ghostty/</link>
       <pubDate>Mon, 24 Aug 2026 13:46:00 -0400</pubDate>
-      <guid>http://localhost:1313/how-to-fix-terminal-flickering-in-chromeos-with-ghostty/</guid>
+      <guid>https://straycatcoder.github.io/how-to-fix-terminal-flickering-in-chromeos-with-ghostty/</guid>
       <description>Install Ghostty with GPU support in ChromeOS Linux.</description>
     </item>
     <item>
       <title>Enable Nerd Fonts in the ChromeOS Flex Terminal</title>
-      <link>http://localhost:1313/enable-nerd-fonts-in-the-chromeos-flex-terminal/</link>
+      <link>https://straycatcoder.github.io/enable-nerd-fonts-in-the-chromeos-flex-terminal/</link>
       <pubDate>Fri, 14 Aug 2026 09:30:00 -0400</pubDate>
-      <guid>http://localhost:1313/enable-nerd-fonts-in-the-chromeos-flex-terminal/</guid>
+      <guid>https://straycatcoder.github.io/enable-nerd-fonts-in-the-chromeos-flex-terminal/</guid>
       <description>How to enable Nerd Font in the ChromeOS Flex Terminal.</description>
     </item>
     <item>
       <title>ChromeOS Flex on a Dell Precision 5520</title>
-      <link>http://localhost:1313/chromeos-flex-on-a-dell-precision-5520/</link>
+      <link>https://straycatcoder.github.io/chromeos-flex-on-a-dell-precision-5520/</link>
       <pubDate>Thu, 13 Aug 2026 12:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/chromeos-flex-on-a-dell-precision-5520/</guid>
+      <guid>https://straycatcoder.github.io/chromeos-flex-on-a-dell-precision-5520/</guid>
       <description>A quick experiment: giving a recycled Dell Precision 5520 a smooth desktop and usable fractional scaling with ChromeOS Flex.</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/markdown-syntax-guide/</link>
+      <link>https://straycatcoder.github.io/markdown-syntax-guide/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/markdown-syntax-guide/</guid>
+      <guid>https://straycatcoder.github.io/markdown-syntax-guide/</guid>
       <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
     </item>
   </channel>

@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>No Copyright © !!!.</copyright>
-    <lastBuildDate>Thu, 27 Aug 2026 10:41:15 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 10:09:45 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
@@ -39,10 +39,19 @@
 &lt;p&gt;Bear makes it simple to publish content online and grow an audience while keeping pages tiny, fast, and &lt;strong&gt;optimized for search engines.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Configure Wolfram_MCP for pi.dev</title>
-      <link>http://localhost:1313/configure-wolfram_mcp-for-pi.dev/</link>
+      <title>Test Local Wolfram MCP</title>
+      <link>http://localhost:1313/test-local-wolfram-mcp/</link>
+      <pubDate>Fri, 28 Aug 2026 10:09:45 -0400</pubDate>
+      <guid>http://localhost:1313/test-local-wolfram-mcp/</guid>
+      <description>&lt;p&gt;In the past, I occasionally tried to use AI to test some novel visualization ideas with Wolfram, it doesn&amp;rsquo;t matter which AI (Claude, ChatGPT or Gemini) used, most of time, the generated code is barely usable at most.&lt;/p&gt;
+&lt;p&gt;Now with Wolfram MCP, the AI model shall be able to produce much better code. I saw &lt;a href=&#34;https://507movements.com/&#34;&gt;507 Mechanical Movements&lt;/a&gt; from Hackernews. Let&amp;rsquo;s have some fun with it.&lt;/p&gt;
+&lt;p&gt;Two simple cases from the front page are chosen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Configure Local Wolfram MCP for pi.dev</title>
+      <link>http://localhost:1313/configure-local-wolfram-mcp-for-pi.dev/</link>
       <pubDate>Thu, 27 Aug 2026 10:41:15 -0400</pubDate>
-      <guid>http://localhost:1313/configure-wolfram_mcp-for-pi.dev/</guid>
+      <guid>http://localhost:1313/configure-local-wolfram-mcp-for-pi.dev/</guid>
       <description>How to reuse Claude Desktop Wolfram MCP configuration in pi.dev</description>
     </item>
     <item>

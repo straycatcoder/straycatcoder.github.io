@@ -77,6 +77,8 @@ Nothing serious on this blog, just random thoughts, coding experiments, and load
 
 # Configure markup highlighter
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
     style = 'monokai'
     lineNos = true
