@@ -2,7 +2,7 @@
 title = 'Test Local Wolfram MCP'
 date = '2026-08-28T10:09:45-04:00'
 draft = false
-description = ""
+description = "Test Wolfram MCP with the mechanic animation"
 tags = ["AI","Wolfram", "ChatGPT", "Animation"]
 +++
 In the past, I occasionally tried to use AI to test some novel visualization ideas with Wolfram, it doesn't matter which AI (Claude, ChatGPT or Gemini) used, most of time, the generated code is barely usable at most.
