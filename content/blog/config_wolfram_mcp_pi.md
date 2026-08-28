@@ -1,7 +1,7 @@
 +++
 date = '2026-08-27T10:41:15-04:00'
 draft = false
-title = 'Configure Wolfram_MCP for pi.dev'
+title = 'Configure Local Wolfram MCP for pi.dev'
 description = "How to reuse Claude Desktop Wolfram MCP configuration in pi.dev"
 tags = ["AI", "Wolfram", "pi.dev", "Tips"]
 +++
