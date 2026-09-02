@@ -1,0 +1,18 @@
+/* Make tags in list entry-footer clickable above the entry-link overlay */
+.post-entry .entry-footer {
+    position: relative;
+    z-index: 1;
+}
+.post-entry .entry-footer a {
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.post-entry .entry-footer a:hover {
+    color: var(--primary);
+}
+.entry-link {
+    z-index: 0;
+}
