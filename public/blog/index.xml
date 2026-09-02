@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>No Copyright © !!!.</copyright>
-    <lastBuildDate>Thu, 27 Aug 2026 10:41:15 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 10:09:45 -0400</lastBuildDate>
     <atom:link href="https://straycatcoder.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Local Wolfram MCP</title>
+      <link>https://straycatcoder.github.io/test-local-wolfram-mcp/</link>
+      <pubDate>Fri, 28 Aug 2026 10:09:45 -0400</pubDate>
+      <guid>https://straycatcoder.github.io/test-local-wolfram-mcp/</guid>
+      <description>Test Wolfram MCP with the mechanic animation</description>
+    </item>
     <item>
       <title>Configure Local Wolfram MCP for pi.dev</title>
       <link>https://straycatcoder.github.io/configure-local-wolfram-mcp-for-pi.dev/</link>
