@@ -1,5 +1,5 @@
 +++
-title = 'Test Local Wolfram MCP'
+title = 'Test Local Wolfram MCP: Animation'
 date = '2026-08-28T10:09:45-04:00'
 draft = false
 description = "Test Wolfram MCP with the mechanic animation"
