@@ -5,6 +5,8 @@ draft = false
 description = "Test Wolfram MCP with an old blog post on EarthquakeData."
 tags = ["AI","Wolfram", "ChatGPT", "Claude", "MetaAI"]
 +++
+**Note**: This is simply a test of the Wolfram MCP integration with AI, nothing more than this.   
+
 With the Wolfram MCP server, we can do something more complex other than the coding.
 
 There is an interesting post ["Don't Study Large Earthquakes with Mathematica's EarthquakeData"](https://sites.psu.edu/charlesammon/2017/05/01/dont-study-large-earthquakes-with-mathematica/) by from Charles J. Ammon's at 2017. 
