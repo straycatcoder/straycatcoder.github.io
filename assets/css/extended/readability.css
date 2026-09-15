@@ -1,0 +1,311 @@
+/* Readability + visual polish for PaperMod (light & dark).
+ * Loaded automatically: PaperMod bundles assets/css/extended/*.css
+ * Goals: comfortable measure, calm hierarchy, stronger contrast, distinct links,
+ *         calmer code/quote/tables, better focus & selection, mobile tuning.
+ */
+
+:root {
+    --accent: #0f766e;            /* teal-700: calm, pairs with PaperMod neutrals */
+    --accent-hover: #0d5f59;
+    --link: #0b65c2;              /* clear but not garish on white */
+    --link-hover: #084d94;
+    --mark-bg: #fef3c7;
+    --content-gap: 1.35rem;
+    --main-width: 740px;          /* ~66-72 chars at 18px: ideal measure */
+}
+
+:root[data-theme="dark"] {
+    --accent: #5eead4;
+    --accent-hover: #99f6e4;
+    --link: #7cb8ff;
+    --link-hover: #a8d0ff;
+    --mark-bg: #574410;
+    --content: rgb(212, 212, 213);      /* was 196: lifts body contrast on #1d1e20 */
+    --secondary: rgb(170, 171, 173);    /* was 155: meta stays muted but legible */
+    --primary: rgb(230, 230, 231);      /* crisper headings in dark */
+}
+
+/* ---------- Base typography ---------- */
+body {
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: -0.011em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    overflow-wrap: break-word;
+}
+
+/* Article body: slightly roomier than UI chrome */
+.post-content,
+.md-content {
+    font-size: 1.0625rem; /* ~17px on 16px root, 18px+ keeps 18px base */
+    line-height: 1.8;
+    word-spacing: 0.01em;
+}
+
+.post-content p,
+.md-content p {
+    margin-bottom: var(--content-gap);
+    text-wrap: pretty; /* avoids widows/orphans where supported */
+}
+
+/* Lists breathe */
+.md-content li + li {
+    margin-top: 0.45rem;
+}
+.md-content li {
+    line-height: 1.75;
+}
+
+/* ---------- Headings: smaller jump, tighter, balanced ---------- */
+.md-content h1,
+.post-title,
+.page-header h1 {
+    font-size: clamp(1.9rem, 4.5vw, 2.5rem); /* was flat 40px */
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+    margin: 2.25rem 0 1.1rem;
+}
+
+.md-content h2 {
+    font-size: clamp(1.5rem, 3.4vw, 1.9rem);
+    line-height: 1.28;
+    letter-spacing: -0.022em;
+    text-wrap: balance;
+    margin: 2rem 0 0.9rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--border); /* anchors long technical posts */
+}
+
+.md-content h3 {
+    font-size: clamp(1.22rem, 2.6vw, 1.42rem);
+    letter-spacing: -0.018em;
+    line-height: 1.35;
+    margin: 1.75rem 0 0.7rem;
+}
+
+.md-content h4,
+.md-content h5,
+.md-content h6 {
+    letter-spacing: -0.01em;
+    line-height: 1.45;
+}
+
+/* Anchor links on headings: don't shout */
+.md-content h1:hover .anchor,
+.md-content h2:hover .anchor,
+.md-content h3:hover .anchor {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+/* Subtitle / description: quieter, narrower */
+.post-description {
+    color: var(--secondary);
+    font-size: 1.08rem;
+    line-height: 1.6;
+    max-width: 62ch;
+}
+
+/* Meta line: bump from 14px, improve contrast in light mode */
+.post-meta,
+.breadcrumbs {
+    font-size: 0.9rem;
+    line-height: 1.55;
+}
+:root[data-theme="light"] .post-meta,
+:root[data-theme="light"] .breadcrumbs,
+:root[data-theme="auto"] .post-meta {
+    color: rgb(90, 90, 90);
+}
+
+/* ---------- Links: distinguishable in both themes ---------- */
+.md-content a:not(.anchor),
+.post-content a,
+.post-meta a,
+.entry-content a {
+    color: var(--link);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.22em;
+    text-decoration-color: color-mix(in srgb, var(--link) 55%, transparent);
+    transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+.md-content a:not(.anchor):hover,
+.post-content a:hover {
+    color: var(--link-hover);
+    text-decoration-color: currentColor;
+}
+
+/* ---------- Quotes, rules, marks ---------- */
+.md-content blockquote {
+    margin: 1.5rem 0;
+    padding: 0.85rem 1.1rem 0.85rem 1.15rem;
+    border-inline-start: 0.25rem solid var(--accent); /* was heavy var(--content) */
+    background: color-mix(in srgb, var(--accent) 7%, transparent);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    color: var(--content);
+}
+.md-content blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.md-content hr {
+    margin: 2.25rem auto;
+    max-width: 12rem;
+    height: 3px;
+    border-radius: 999px;
+    background: var(--tertiary);
+    opacity: 0.7;
+}
+
+mark {
+    background: var(--mark-bg);
+    padding: 0.05em 0.3em;
+    border-radius: 4px;
+}
+
+/* ---------- Code: calmer inline, roomier blocks ---------- */
+.post-content code {
+    font-size: 0.85em;
+    padding: 0.18em 0.42em;
+    border: 1px solid color-mix(in srgb, var(--border) 80%, transparent);
+    border-bottom-width: 2px;
+    font-family: ui-monospace, "JetBrains Mono", "Fira Code", "Cascadia Code",
+        SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.md-content pre code {
+    font-size: 0.875rem;
+    line-height: 1.7;
+    padding: 1rem 1.1rem;
+    word-break: normal;
+    white-space: pre;
+}
+.md-content .highlight:not(table) {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.06), 0 8px 24px -12px rgb(0 0 0 / 0.25);
+}
+
+/* Long one-liners (like the nerd-font `term_.prefs_` line) scroll, don't wrap-mangle */
+.md-content pre {
+    overflow-x: auto;
+    scrollbar-width: thin;
+}
+
+/* ---------- Images / figures ---------- */
+.md-content img {
+    margin: 1.5rem auto;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.08), 0 12px 32px -16px rgb(0 0 0 / 0.28);
+}
+.md-content figure > figcaption {
+    font-size: 0.95rem;
+    text-align: center;
+}
+.md-content figure > figcaption > p {
+    font-size: 0.875rem;
+    color: var(--secondary);
+}
+
+/* ---------- Tables: sticky header feel, zebra, scroll ---------- */
+.md-content table {
+    display: block;
+    overflow-x: auto;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+.md-content table th {
+    background: var(--code-bg);
+    font-weight: 650;
+    white-space: nowrap;
+}
+.md-content tbody tr:nth-child(even) td {
+    background: color-mix(in srgb, var(--code-bg) 45%, transparent);
+}
+
+/* ---------- TOC, tags, nav: quieter chrome ---------- */
+details.toc {
+    font-size: 0.95rem;
+    line-height: 1.65;
+}
+details.toc summary {
+    font-weight: 600;
+}
+
+.post-tags a {
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.post-tags a:hover {
+    color: var(--primary);
+    border-color: var(--accent);
+}
+
+.paginav a {
+    transition: border-color 0.15s ease, background 0.15s ease;
+}
+.paginav a:hover {
+    border-color: var(--accent);
+}
+
+/* List cards: airier excerpt, muted footer */
+.post-entry .entry-content {
+    line-height: 1.7;
+    color: var(--content);
+}
+.entry-footer {
+    font-size: 0.85rem;
+    color: var(--secondary);
+}
+
+/* ---------- Selection & keyboard focus (a11y) ---------- */
+::selection {
+    background: color-mix(in srgb, var(--accent) 30%, transparent);
+}
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
+/* ---------- Fat-cat hero: legible in BOTH themes ---------- */
+#fatcat {
+    color: #14532d; /* was #000 on white: now deep green, on-brand */
+}
+:root[data-theme="dark"] #fatcat {
+    color: #8cff8c;
+    text-shadow: 0 0 18px rgb(140 255 140 / 0.25);
+}
+@media (prefers-color-scheme: light) {
+    :root[data-theme="auto"] #fatcat {
+        color: #14532d;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root[data-theme="auto"] #fatcat {
+        color: #8cff8c;
+    }
+}
+
+/* ---------- Small screens ---------- */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16.5px;
+    }
+    .post-content,
+    .md-content {
+        font-size: 1rem;
+        line-height: 1.75;
+    }
+    .md-content h2 {
+        border-bottom: none; /* less visual noise on narrow screens */
+    }
+    .md-content ul pre {
+        margin-inline-start: 0; /* PaperMod's -2*gap overflows on mobile */
+    }
+}
