@@ -2,17 +2,19 @@
 title = "Test Local Wolfram MCP II: EarthquakeData"
 date = "2026-09-08T13:20:39-04:00"
 draft = false
-description = "Test Wolfram MCP with an old blog post on EarthquakeData."
+description = "Revisiting a 2017 EarthquakeData critique on Wolfram 15.0.1 with Claude, ChatGPT, and muse-spark — does the warning still hold?"
 tags = ["AI","Wolfram", "ChatGPT", "Claude", "MetaAI"]
 +++
-**Note**: This is simply a test of the Wolfram MCP integration with AI, nothing more than this.   
+**Note**: this is simply a test of the Wolfram MCP integration with AI — nothing more.
 
-With the Wolfram MCP server, we can do something more complex other than the coding.
+With the Wolfram MCP server, we can attempt something more complex than plain coding.
 
-There is an interesting post ["Don't Study Large Earthquakes with Mathematica's EarthquakeData"](https://sites.psu.edu/charlesammon/2017/05/01/dont-study-large-earthquakes-with-mathematica/) by from Charles J. Ammon's at 2017. 
-And nine years later on Wolfram Language 15.0.1, is it still the case. Let's revisit this post with AI.
+<!--more-->
 
-The blog post is tested in Claude, ChatGPI, and verified by Meta's muse-spark model. I won't go into any details, and the reports are listed in the table.  
+There is an interesting 2017 post, ["Don't Study Large Earthquakes with Mathematica's EarthquakeData"](https://sites.psu.edu/charlesammon/2017/05/01/dont-study-large-earthquakes-with-mathematica/) by Charles J. Ammon.
+Nine years later, on Wolfram Language 15.0.1, is it still the case? Let's revisit that post with AI.
+
+I tested the claims in Claude and ChatGPT, and verified them with Meta's muse-spark model. I won't go into the details here — the reports are listed in the table below.
 
 The conclusion: the main claim from Ammon's post in 2017 still holds on WL 15.0.1 today: if you need to work with earthquake magnitude data in Mathematica, import it from USGS, ISC, or GCMT directly rather than relying on EarthquakeData. 
 

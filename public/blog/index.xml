@@ -14,35 +14,35 @@
       <link>http://localhost:1313/test-local-wolfram-mcp-ii-earthquakedata/</link>
       <pubDate>Tue, 08 Sep 2026 13:20:39 -0400</pubDate>
       <guid>http://localhost:1313/test-local-wolfram-mcp-ii-earthquakedata/</guid>
-      <description>Test Wolfram MCP with an old blog post on EarthquakeData.</description>
+      <description>Revisiting a 2017 EarthquakeData critique on Wolfram 15.0.1 with Claude, ChatGPT, and muse-spark — does the warning still hold?</description>
     </item>
     <item>
       <title>Test Local Wolfram MCP: Animation</title>
       <link>http://localhost:1313/test-local-wolfram-mcp-animation/</link>
       <pubDate>Fri, 28 Aug 2026 10:09:45 -0400</pubDate>
       <guid>http://localhost:1313/test-local-wolfram-mcp-animation/</guid>
-      <description>Test Wolfram MCP with the mechanic animation</description>
+      <description>Putting Wolfram MCP to the test: generating mechanical-movement animations from 507movements.com with AI-written Wolfram code.</description>
     </item>
     <item>
       <title>Configure Local Wolfram MCP for pi.dev</title>
       <link>http://localhost:1313/configure-local-wolfram-mcp-for-pi.dev/</link>
       <pubDate>Thu, 27 Aug 2026 10:41:15 -0400</pubDate>
       <guid>http://localhost:1313/configure-local-wolfram-mcp-for-pi.dev/</guid>
-      <description>How to reuse Claude Desktop Wolfram MCP configuration in pi.dev</description>
+      <description>Reuse your Claude Desktop Wolfram MCP config in pi.dev: install the MCP extension, add transport and lifecycle, then verify.</description>
     </item>
     <item>
       <title>How to Fix Terminal Flickering in ChromeOS with Ghostty</title>
       <link>http://localhost:1313/how-to-fix-terminal-flickering-in-chromeos-with-ghostty/</link>
       <pubDate>Mon, 24 Aug 2026 13:46:00 -0400</pubDate>
       <guid>http://localhost:1313/how-to-fix-terminal-flickering-in-chromeos-with-ghostty/</guid>
-      <description>Install Ghostty with GPU support in ChromeOS Linux.</description>
+      <description>Fix terminal flickering in ChromeOS Linux: enable Crostini GPU support and install Ghostty for smooth, flicker-free typing.</description>
     </item>
     <item>
       <title>Enable Nerd Fonts in the ChromeOS Flex Terminal</title>
       <link>http://localhost:1313/enable-nerd-fonts-in-the-chromeos-flex-terminal/</link>
       <pubDate>Fri, 14 Aug 2026 09:30:00 -0400</pubDate>
       <guid>http://localhost:1313/enable-nerd-fonts-in-the-chromeos-flex-terminal/</guid>
-      <description>How to enable Nerd Font in the ChromeOS Flex Terminal.</description>
+      <description>Load a Nerd Font in the ChromeOS Flex Terminal with a user-CSS workaround — plus the easier Tilix alternative.</description>
     </item>
     <item>
       <title>ChromeOS Flex on a Dell Precision 5520</title>

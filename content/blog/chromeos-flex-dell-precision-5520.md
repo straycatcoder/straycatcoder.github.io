@@ -12,14 +12,16 @@ The 5520 is a 2017 mobile workstation: Intel i7-7820HQ (8) @ 2.90 GHz, Intel HD 
 ![Dell Precision 5520 running ChromeOS Flex](/images/blog/dell-5520-flex.jpg "ChromeOS Flex desktop on Dell 5520")
 ## Why ChromeOS Flex?
 
-The laptop arrived with Ubuntu. I later tried Manjaro, but gnome desktop felt a little heavy for this machine, I tried Xfce dekstop, it only improves a little.
+The laptop arrived with Ubuntu. I later tried Manjaro, but the GNOME desktop felt a little heavy for this machine. I tried the Xfce desktop next — it only helped a little.
 
+<!--more-->
 The main reason for trying ChromeOS Flex was less about performance, and more about my poor eyesight. On my external 34-inch monitor I need fractional scaling (at least 2.25). Linux desktop support for that has been hit-and-miss, ChromeOS Flex seems much less fussy.
 
 ## Installation
 
-Installation was simple. I used an 8 GB USB stick for the installer, booted the laptop from it, and followed the normal ChromeOS Flex setup, it takes less than 15 minutes.   
-note: on Dell Laptop, press "F2" to enter BIOS to change the boot order.
+Installation was simple. I used an 8 GB USB stick for the installer and booted the laptop from it. Following the normal ChromeOS Flex setup took less than 15 minutes.
+
+> **Note:** on Dell laptops, press `F2` to enter the BIOS and change the boot order.
 
 ## One Bluetooth hiccup
 

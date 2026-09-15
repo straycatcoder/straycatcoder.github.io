@@ -2,34 +2,41 @@
 title = "Enable Nerd Fonts in the ChromeOS Flex Terminal"
 date = "2026-08-14T09:30:00-04:00"
 draft = false
-description = "How to enable Nerd Font in the ChromeOS Flex Terminal."
+description = "Load a Nerd Font in the ChromeOS Flex Terminal with a user-CSS workaround — plus the easier Tilix alternative."
 tags = ["ChromeOS-Flex", "Linux", "Terminal", "Tips"]
 +++
-In ChromeOS Flex, the Terminal is the entry point to Linux. In terminal settings, there are plenty of built-in fonts, however, there isn't a simple way to install nerd font or any other font, and the terminal can't pick up the fonts installed in the Linux either. 
+In ChromeOS Flex, the Terminal is the entry point to Linux. Terminal settings include plenty of built-in fonts.
 
-Here is a workaround to install a nerd font for the Terminal. 
+However, there is no simple way to install a Nerd Font or any custom font, and the Terminal cannot pick up fonts installed inside Linux either.
 
-## Nerd fonts
-First, go to [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and find the font.
-Then copy the url to the font file (*.tff).
+<!--more-->
+
+Here is a workaround to load a Nerd Font in the Terminal.
+
+## Nerd Fonts
+
+First, go to [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and find the font you like.
+
+Then copy the URL of the font file (*.ttf).
 
 ## Load a nerd font in Terminal
 Open the Terminal, press Ctrl+Shift+J inside Terminal and paste:
 
-![Setup the nerd font in terminal](/images/blog/setup-nerd-font-terminal.png "Set up the nerd font in Terminal")
+![Terminal preferences showing where to paste the Nerd Font CSS](/images/blog/setup-nerd-font-terminal.png "Set up the Nerd Font in Terminal")
 
 ```
 term_.prefs_.set('font-family', '"VictorMono Nerd Font", monospace');
 
 term_.prefs_.set('user-css-text', '@font-face { font-family: "VictorMono Nerd Font"; src: url("https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/patched-fonts/VictorMono/VictorMonoNerdFont-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; } @font-face { font-family: "VictorMono Nerd Font"; src: url("https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/patched-fonts/VictorMono/VictorMonoNerdFont-Bold.ttf") format("truetype"); font-weight: bold; font-style: normal; } x-row { text-rendering: optimizeLegibility; font-variant-ligatures: normal; font-style: italic; }')
 ```
-The terminal font shall be immediately updated, a simple test shows the nerd font installed correctly.
+The terminal font updates immediately. A quick test confirms the Nerd Font is installed correctly.
 
-![Test the nerd font in terminal](/images/blog/test-nerd-font-terminal.png "Test the nerd font in Terminal")
+![Terminal output proving the Nerd Font glyphs render correctly](/images/blog/test-nerd-font-terminal.png "Test the Nerd Font in Terminal")
 
 ## Another way
-Just install a terminal application and use the nerd font in Linux, this is probably the easiest way!
-The screenshot shows Tilix terminal with JetbrainMono nerd font.
 
-![Nerd font in Tilix terminal](/images/blog/nerd-font-tilix-terminal.png "Nerd font in Tilix Terminal")
+Just install a terminal app and use the Nerd Font inside Linux — this is probably the easiest way.
+The screenshot below shows the Tilix terminal with JetBrainsMono Nerd Font.
+
+![Tilix terminal using the JetBrainsMono Nerd Font](/images/blog/nerd-font-tilix-terminal.png "Nerd Font in Tilix Terminal")
 
