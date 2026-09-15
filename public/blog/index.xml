@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>No Copyright © !!!.</copyright>
-    <lastBuildDate>Tue, 08 Sep 2026 13:20:39 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 13:10:48 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reset the Browser in Linux Container</title>
+      <link>http://localhost:1313/reset-the-browser-in-linux-container/</link>
+      <pubDate>Tue, 15 Sep 2026 13:10:48 -0400</pubDate>
+      <guid>http://localhost:1313/reset-the-browser-in-linux-container/</guid>
+      <description>Reset the default browser in the Linux container.</description>
+    </item>
     <item>
       <title>Test Local Wolfram MCP II: EarthquakeData</title>
       <link>http://localhost:1313/test-local-wolfram-mcp-ii-earthquakedata/</link>
