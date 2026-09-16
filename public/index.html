@@ -261,6 +261,23 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Fix Open Configuration in Ghostty
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ghostty has a shortcut “Ctrl&#43;,” to open the configuration file, under ChromeOS Flex, this short does nothing.
+To find out which application opens the configuration file, run the following command:
+xdg-open ~/.config/ghostty/config It opens the file with Emacs in terminal mode on my machine, and setting it to open with the normal Emacs solves the issue.
+xdg-mime default emacs.desktop text/plain Linux under ChromeOS runs inside a container sandbox, it has many quirks that are unique to this environment, so far nothing has been a deal-breaker yet.
+</p>
+  </div>
+  <footer class="entry-footer"><span title="2026-09-16 13:38:10 -0400 EDT">16 Sep 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/chromeos-flex/">ChromeOS-Flex</a> <a href="http://localhost:1313/tags/ghostty/">Ghostty</a> <a href="http://localhost:1313/tags/tips/">Tips</a> ]
+  </footer>
+  <a class="entry-link" aria-label="post link to Fix Open Configuration in Ghostty" href="http://localhost:1313/fix-open-configuration-in-ghostty/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Reset the Browser in Linux Container
     </h2>
   </header>
@@ -316,21 +333,6 @@ Now, with Wolfram MCP, the AI model should be able to produce much better code. 
   <footer class="entry-footer"><span title="2026-08-27 10:41:15 -0400 EDT">27 Aug 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/ai/">AI</a> <a href="http://localhost:1313/tags/wolfram/">Wolfram</a> <a href="http://localhost:1313/tags/pi.dev/">Pi.dev</a> <a href="http://localhost:1313/tags/tips/">Tips</a> ]
   </footer>
   <a class="entry-link" aria-label="post link to Configure Local Wolfram MCP for pi.dev" href="http://localhost:1313/configure-local-wolfram-mcp-for-pi.dev/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">How to Fix Terminal Flickering in ChromeOS with Ghostty
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>When running pi.dev in the default terminal and Tilix, I occasionally hit severe screen flickering and text jumping. It happens most often while the model is waiting for user input.
-According to Gemini AI, the default terminal struggles with rapid frame redraws inside the Crostini Linux container. It is not a deal-breaker, but it is annoying enough for my old eyes.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title="2026-08-24 13:46:00 -0400 EDT">24 Aug 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/chromeos-flex/">ChromeOS-Flex</a> <a href="http://localhost:1313/tags/linux/">Linux</a> <a href="http://localhost:1313/tags/ghostty/">Ghostty</a> <a href="http://localhost:1313/tags/terminal/">Terminal</a> <a href="http://localhost:1313/tags/tips/">Tips</a> ]
-  </footer>
-  <a class="entry-link" aria-label="post link to How to Fix Terminal Flickering in ChromeOS with Ghostty" href="http://localhost:1313/how-to-fix-terminal-flickering-in-chromeos-with-ghostty/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -1,8 +1,8 @@
 +++
 title = 'Fix Open Configuration in Ghostty'
 date = '2026-09-16T13:38:10-04:00'
-draft = true
-description = "Fix Ghostty "open configuration" issue in ChromeOS"
+draft = false
+description = "Fix Ghostty open configuration issue in ChromeOS"
 tags = ["ChromeOS-Flex", "Ghostty","Tips"]
 +++
 

@@ -3,17 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-09-15T13:10:48-04:00</lastmod>
+    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo/</loc>
   </url><url>
     <loc>http://localhost:1313/bear/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-09-15T13:10:48-04:00</lastmod>
+    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/chromeos-flex/</loc>
-    <lastmod>2026-09-15T13:10:48-04:00</lastmod>
+    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fix-open-configuration-in-ghostty/</loc>
+    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ghostty/</loc>
+    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tips/</loc>
+    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2026-09-15T13:10:48-04:00</lastmod>
@@ -21,13 +33,7 @@
     <loc>http://localhost:1313/reset-the-browser-in-linux-container/</loc>
     <lastmod>2026-09-15T13:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-09-15T13:10:48-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/terminal/</loc>
-    <lastmod>2026-09-15T13:10:48-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tips/</loc>
     <lastmod>2026-09-15T13:10:48-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
@@ -59,9 +65,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/pi.dev/</loc>
     <lastmod>2026-08-27T10:41:15-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ghostty/</loc>
-    <lastmod>2026-08-24T13:46:00-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/how-to-fix-terminal-flickering-in-chromeos-with-ghostty/</loc>
     <lastmod>2026-08-24T13:46:00-04:00</lastmod>
