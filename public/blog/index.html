@@ -142,6 +142,22 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Test Wolfram Cloud MCP with pi.dev
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I have tested the local MCP server on Mac, and today I am testing Wolfram Cloud MCP server in ChromeOS Flex, currently it free for the personal use.
+To use MCP in pi.dev, install npm:pi-mcp-extension first. Here is the minimum configuration for mcp.json.
+1{ 2 &#34;settings&#34;: { 3 &#34;toolPrefix&#34;: &#34;mcp&#34;, 4 &#34;requestTimeoutMs&#34;: 30000, 5 &#34;maxRetries&#34;: 5 6 }, 7 &#34;mcpServers&#34;: { 8 &#34;wolfram&#34;: { 9 &#34;transport&#34;: &#34;streamable-http&#34;, 10 &#34;url&#34;: &#34;https://agenttools.wolfram.com/mcp&#34;, 11 &#34;lifecycle&#34;: &#34;eager&#34; 12 } 13 } 14} Ghostty terminal supports the Kitty graphics protocol to display inline images directly within the terminal, it will be nice if we can display the plots generated from the Wolfram Cloud.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title="2026-09-17 11:05:20 -0400 EDT">17 Sep 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/wolfram/">Wolfram</a> <a href="http://localhost:1313/tags/ai/">AI</a> <a href="http://localhost:1313/tags/ghostty/">Ghostty</a> <a href="http://localhost:1313/tags/pi.dev/">Pi.dev</a> ]
+  </footer>
+  <a class="entry-link" aria-label="post link to Test Wolfram Cloud MCP with pi.dev" href="http://localhost:1313/test-wolfram-cloud-mcp-with-pi.dev/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Fix Open Configuration in Ghostty
     </h2>
   </header>
@@ -200,20 +216,6 @@ Now, with Wolfram MCP, the AI model should be able to produce much better code. 
   <footer class="entry-footer"><span title="2026-08-28 10:09:45 -0400 EDT">28 Aug 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/ai/">AI</a> <a href="http://localhost:1313/tags/wolfram/">Wolfram</a> <a href="http://localhost:1313/tags/chatgpt/">ChatGPT</a> <a href="http://localhost:1313/tags/animation/">Animation</a> ]
   </footer>
   <a class="entry-link" aria-label="post link to Test Local Wolfram MCP: Animation" href="http://localhost:1313/test-local-wolfram-mcp-animation/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Configure Local Wolfram MCP for pi.dev
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Wolfram Local MCP Since Wolfram (or Mathematica) 15.0, Wolfram Local MCP works out of the box. Wolfram had already configured the MCP server for my Claude Desktop, so I reused that configuration file for pi.dev.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title="2026-08-27 10:41:15 -0400 EDT">27 Aug 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/ai/">AI</a> <a href="http://localhost:1313/tags/wolfram/">Wolfram</a> <a href="http://localhost:1313/tags/pi.dev/">Pi.dev</a> <a href="http://localhost:1313/tags/tips/">Tips</a> ]
-  </footer>
-  <a class="entry-link" aria-label="post link to Configure Local Wolfram MCP for pi.dev" href="http://localhost:1313/configure-local-wolfram-mcp-for-pi.dev/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -3,25 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
+    <lastmod>2026-09-17T11:05:20-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo/</loc>
   </url><url>
     <loc>http://localhost:1313/bear/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2026-09-17T11:05:20-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
+    <lastmod>2026-09-17T11:05:20-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ghostty/</loc>
+    <lastmod>2026-09-17T11:05:20-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pi.dev/</loc>
+    <lastmod>2026-09-17T11:05:20-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-09-17T11:05:20-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/test-wolfram-cloud-mcp-with-pi.dev/</loc>
+    <lastmod>2026-09-17T11:05:20-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/wolfram/</loc>
+    <lastmod>2026-09-17T11:05:20-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/chromeos-flex/</loc>
     <lastmod>2026-09-16T13:38:10-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/fix-open-configuration-in-ghostty/</loc>
-    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ghostty/</loc>
-    <lastmod>2026-09-16T13:38:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-09-16T13:38:10-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tips/</loc>
@@ -36,9 +48,6 @@
     <loc>http://localhost:1313/tags/terminal/</loc>
     <lastmod>2026-09-15T13:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
-    <lastmod>2026-09-08T13:20:39-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/chatgpt/</loc>
     <lastmod>2026-09-08T13:20:39-04:00</lastmod>
   </url><url>
@@ -51,9 +60,6 @@
     <loc>http://localhost:1313/test-local-wolfram-mcp-ii-earthquakedata/</loc>
     <lastmod>2026-09-08T13:20:39-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/wolfram/</loc>
-    <lastmod>2026-09-08T13:20:39-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/animation/</loc>
     <lastmod>2026-08-28T10:09:45-04:00</lastmod>
   </url><url>
@@ -61,9 +67,6 @@
     <lastmod>2026-08-28T10:09:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/configure-local-wolfram-mcp-for-pi.dev/</loc>
-    <lastmod>2026-08-27T10:41:15-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/pi.dev/</loc>
     <lastmod>2026-08-27T10:41:15-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/how-to-fix-terminal-flickering-in-chromeos-with-ghostty/</loc>
