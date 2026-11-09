@@ -142,13 +142,29 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Remove Linux App Icons
+    <h2 class="entry-hint-parent">Fix Not eligible for Storage Saver issue in Google Photos
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
           <path
             d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
         </svg>
       </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I noticed that the most photos from the old Canon PowerShot SX280 HS point-and-shot camera (2013) in Google Photos are marked as “Not eligible for Storage Saver”. And the photos from Canon PowerShot S95 (2010) have no such issue.
+According to the help, the issue is from Multi-Picture Format (MPF) or Embedded Data, basically SX280 adds the thumbnail preview directly into the JPEG file.
+MPF Version : 0100 Number Of Images : 2 MP Image Flags : Dependent child image MP Image Format : JPEG MP Image Type : Large Thumbnail (full HD equivalent) MP Image Length : 624680 MP Image Start : 4340736 Preview Image : (Binary data 624680 bytes) There is 624Kb preview directly inside the JPEG file using the MPF specification.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title="2026-11-09 10:44:42 -0500 EST">09 Nov 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/old-hardware/">Old-Hardware</a> <a href="http://localhost:1313/tags/photo/">Photo</a> <a href="http://localhost:1313/tags/tips/">Tips</a> ]
+  </footer>
+  <a class="entry-link" aria-label="post link to Fix Not eligible for Storage Saver issue in Google Photos" href="http://localhost:1313/fix-not-eligible-for-storage-saver-issue-in-google-photos/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Remove Linux App Icons
     </h2>
   </header>
   <div class="entry-content">
@@ -208,21 +224,6 @@ xdg-mime default emacs.desktop text/plain Linux under ChromeOS runs inside a con
   <footer class="entry-footer"><span title="2026-09-16 13:38:10 -0400 EDT">16 Sep 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/chromeos-flex/">ChromeOS-Flex</a> <a href="http://localhost:1313/tags/ghostty/">Ghostty</a> <a href="http://localhost:1313/tags/tips/">Tips</a> ]
   </footer>
   <a class="entry-link" aria-label="post link to Fix Open Configuration in Ghostty" href="http://localhost:1313/fix-open-configuration-in-ghostty/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Reset the Browser in Linux Container
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>I installed ChatGPT desktop inside Linux container on ChromeOS Flex, one issue is that it hijacks the browser setting: clicking a web link in the Linux terminal, it launches the ChatGPT desktop and does nothing with the URL.
-ChromeOS handles cross-system actions using a background service called Garcon. To force your terminal to always route links to the ChromeOS Chrome browser, you just need to set Garcon as your default web browser inside the container.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title="2026-09-15 13:10:48 -0400 EDT">15 Sep 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/tips/">Tips</a> <a href="http://localhost:1313/tags/chromeos-flex/">ChromeOS-Flex</a> <a href="http://localhost:1313/tags/terminal/">Terminal</a> <a href="http://localhost:1313/tags/linux/">Linux</a> ]
-  </footer>
-  <a class="entry-link" aria-label="post link to Reset the Browser in Linux Container" href="http://localhost:1313/reset-the-browser-in-linux-container/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
