@@ -186,6 +186,16 @@ mark {
     word-break: normal;
     white-space: pre;
 }
+
+/* Plain code fences need a dark foreground against the light block background. */
+:root[data-theme="light"] .md-content pre code {
+    color: #1f2328;
+}
+@media (prefers-color-scheme: light) {
+    :root[data-theme="auto"] .md-content pre code {
+        color: #1f2328;
+    }
+}
 .md-content .highlight:not(table) {
     box-shadow: 0 1px 2px rgb(0 0 0 / 0.06), 0 8px 24px -12px rgb(0 0 0 / 0.25);
 }
