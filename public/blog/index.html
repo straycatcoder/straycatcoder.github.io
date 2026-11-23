@@ -10,7 +10,7 @@
 <meta name="description" content="Blog - Stray ฅ^•ﻌ•^ฅ Coder">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/blog/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.c04fcbddeb230bce77d68af52b7f1bfd4b5adf5de40d6fa08b37d8af7721d28b.css" integrity="sha256-wE/L3esjC8531or1K38b/Uta313kDW&#43;gizfYr3ch0os=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b60775822bd49e3a977aeec61b0b7c2163bfb52e421df2521fff64e50914ae7d.css" integrity="sha256-tgd1givUnjqXeu7GGwt8IWO/tS5CHfJSH/9k5QkUrn0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -143,18 +143,12 @@
 <article class="post-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">Fix Not eligible for Storage Saver issue in Google Photos
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
     </h2>
   </header>
   <div class="entry-content">
     <p>I noticed that the most photos from the old Canon PowerShot SX280 HS point-and-shot camera (2013) in Google Photos are marked as “Not eligible for Storage Saver”. And the photos from Canon PowerShot S95 (2010) have no such issue.
 According to the help, the issue is from Multi-Picture Format (MPF) or Embedded Data, basically SX280 adds the thumbnail preview directly into the JPEG file.
-MPF Version : 0100 Number Of Images : 2 MP Image Flags : Dependent child image MP Image Format : JPEG MP Image Type : Large Thumbnail (full HD equivalent) MP Image Length : 624680 MP Image Start : 4340736 Preview Image : (Binary data 624680 bytes) There is 624Kb preview directly inside the JPEG file using the MPF specification.
+Using exiftool to check the exif of this goat image, MPF is in the metadata.
 ...</p>
   </div>
   <footer class="entry-footer"><span title="2026-11-09 10:44:42 -0500 EST">09 Nov 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/old-hardware/">Old-Hardware</a> <a href="http://localhost:1313/tags/photo/">Photo</a> <a href="http://localhost:1313/tags/tips/">Tips</a> ]
@@ -170,7 +164,8 @@ MPF Version : 0100 Number Of Images : 2 MP Image Flags : Dependent child image M
   <div class="entry-content">
     <p>Sometimes after removing an app from ChromeOS Linux, its icon may still appear in ChromeOS Launcher. In debian, the icons are defined by desktop entries (*.desktop). Check the following two places to remove the leftover desktop entries.
 1# User-Specific Applications 2~/.local/share/applications/ 3 4# System-Wide Applications 5/usr/share/applications/ Once the desktop file is deleted, the lingering icon will disappear from ChromeOS Launcher.
-...</p>
+Similarly, you can also create a .desktop file to make an app accessible from the launcher.
+</p>
   </div>
   <footer class="entry-footer"><span title="2026-11-04 09:38:18 -0500 EST">04 Nov 2026</span>&nbsp;|&nbsp;tags: [ <a href="http://localhost:1313/tags/chromeos-flex/">ChromeOS-Flex</a> <a href="http://localhost:1313/tags/linux/">Linux</a> <a href="http://localhost:1313/tags/tips/">Tips</a> ]
   </footer>

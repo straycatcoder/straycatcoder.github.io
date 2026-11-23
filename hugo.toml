@@ -81,6 +81,7 @@ Nothing serious on this blog, just random thoughts, coding experiments, and load
     unsafe = true
   [markup.highlight]
     style = 'monokai'
+    noClasses = false
     lineNos = true
     lineNumbersInTable = false
     codeFences = true

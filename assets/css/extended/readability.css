@@ -12,6 +12,7 @@
     --mark-bg: #fef3c7;
     --content-gap: 1.35rem;
     --main-width: 740px;          /* ~66-72 chars at 18px: ideal measure */
+    --code-block-bg: #f6f8fa;
 }
 
 :root[data-theme="dark"] {
